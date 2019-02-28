@@ -1,4 +1,4 @@
-# chip8emu
+# Chip8emu
 
 ## Description
 
@@ -6,7 +6,7 @@ A simple Chip8 Emulator I wrote a while ago, I may make some design changes in t
 
 ## Build
 
-Enter the chip8emu directory
+Enter the Chip8emu directory
 ~~~
 git clone https://github.com/rileysut8991/rstd
 cd rstd
