@@ -5,9 +5,13 @@
 #include "cpu.h"
 #include "display.h"
 
-int main(void){
+int main(int argc, char *argv[]){
+	if (argc != 2){
+		return 1;
+	}
+
 	SDL_Init(SDL_INIT_TIMER | SDL_INIT_VIDEO);
-	ArrList l = readFile("games/TRIP");
+	ArrList l = readFile(argv[1]);
 	CPU cpu = initCPU();
 	int quit = 0;
 	SDL_Event e;
